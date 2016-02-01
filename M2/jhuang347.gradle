@@ -8,11 +8,14 @@ repositories {
    }
 }
 
+//libsDirName = 'lib'
+
 jar  {
   manifest {
      attributes  'Implementation-Title' : 'Jesse Gradle' ,
                  'Implementation-Version' : 1.0,
-                 'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain'
+                 'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain',
+                 'Class-Path' : 'lib/resources.jar'
     }
 
     destinationDir = file(".")
