@@ -29,7 +29,14 @@ import edu.gatech.oad.antlab.pkg2.*;
     /**antlab31 java message class which is contained in a jar resource file*/
     private AntLab31 ant31;
     
-    
+    /**
+     * entry point for the program
+     */
+     public static void main(String[] args) {
+        
+        new AntLabMain().printOutMessage();
+        
+     } 
     
     /**
      * the constructor that intializes all the helper classes
@@ -83,14 +90,7 @@ import edu.gatech.oad.antlab.pkg2.*;
     }
      
     
-    /**
-     * entry point for the program
-     */
-     public static void main(String[] args) {
-        
-        new AntLabMain().printOutMessage();
-        
-     } 
+    
     
     
     
