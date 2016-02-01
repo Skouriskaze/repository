@@ -35,7 +35,7 @@ public class Person6 {
 	  	return input;
 	  }
 	  String newStr = input.substring(0, 2);
-	  newStr = input.substring(input.length() - 3) + newStr;
+	  newStr = input.substring(2) + newStr;
 	  return newStr;
 	}
 	
