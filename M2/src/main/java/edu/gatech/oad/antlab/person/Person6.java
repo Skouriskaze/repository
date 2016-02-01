@@ -34,8 +34,8 @@ public class Person6 {
 	  if (input.length() < 3) {
 	  	return input;
 	  }
-	  String newStr = input.substring(2);
-	  newStr = newStr + input.substring(input.length() - 3);
+	  String newStr = input.substring(0, 2);
+	  newStr = input.substring(input.length() - 3) + newStr;
 	  return newStr;
 	}
 	
