@@ -2,18 +2,6 @@ defaultTasks 'jar'
 
 apply plugin: 'java'
 
-apply plugin: 'findbugs'
-
-apply plugin: 'checkstyle'
-
-apply plugin: 'pmd'
-
-apply plugin: 'application'
-
-task runp1(dependsOn:build)<< {
-   mainClassName = "Person3"
-}
-
 //Define the contents of the jar file
 jar {
   manifest {
